@@ -1,0 +1,67 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+aside{
+    background-color: rgb(90, 72, 72);
+    width: 200px;
+    height: 100vh;
+    transition: .5s;
+}
+aside.test{
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+aside nav ul li a{
+    font-size: 18px;
+    color: aquamarine;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(128, 50, 50, 0.1);
+    transition: .4s;
+}
+
+aside nav ul li a:hover{
+    background-color: #222;
+}
+#menu_toggle{
+   position: fixed;
+   top: 20px; 
+   right: 20px;
+   width: 40px;
+   background-color: black;
+   color: aliceblue;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+
+
+
+#menu_toggle:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
